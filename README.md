@@ -15,3 +15,4 @@ Heres a list of things we must add (priority ranked with stars):
 3. Input Validation (⭐⭐)
 4. Volume Driver Config (⭐)
 5. HealthCheck, DependsOn, Restart Policy (⭐⭐⭐⭐)
+6. Jest Unit Tests (⭐⭐)
