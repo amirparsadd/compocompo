@@ -2,7 +2,7 @@
   "name": "compocompo",
   "version": "1.0.0",
   "description": "CompoCompo is a tool to write code and compile it into a docker compose file.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "node ."
   },
