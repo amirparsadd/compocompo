@@ -16,7 +16,7 @@ const generate = () => {
 		.addService(
 			new Service("db",new Image("mongo"))
 				.addEnv("MONGO_INITDB_ROOT_USERNAME", "root")
-				.addEnv("MONGO_INITDB_ROOT_PASSWORD", "safepassword") // You would want this in an environment variable
+				.addEnv("MONGO_INITDB_ROOT_PASSWORD", "safepassword") // TODO Add environment variable support
 				.addPort(new PortMapping(27027, 27017))
 				.addVolume(new VolumeMount(MONGO_DATA_VOLUME, "/data/db"))
 				.addVolume(new VolumeMount(MONGO_LOGS_VOLUME, "/data/log"))
