@@ -3,7 +3,7 @@ CompoCompo is a tool to write code and transpile it into a docker compose file. 
 
 ## How To Use
 1. Clone/Fork this repository (depending on you needs)
-2. Rake modifications to the `src/index` file
+2. Make modifications to the `src/index` file
 3. Run `npm run build`
 
 ### How To Contribute
